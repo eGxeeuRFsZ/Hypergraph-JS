@@ -1,0 +1,24 @@
+class Hypergraph {
+    constructor(container) {
+        this.container = container;
+        console.log("Hypergraph initialized.");
+    }
+
+
+    addNode(nodeId) {
+        console.log(`Adding node: ${nodeId}`);
+        // Placeholder for node addition logic
+    }
+
+    addHyperedge(nodeIds) {
+        console.log(`Adding hyperedge connecting: ${nodeIds.join(', ')}`);
+        // Placeholder for hyperedge addition logic
+    }
+
+    render() {
+        console.log("Rendering hypergraph...");
+        // Placeholder for rendering logic
+    }
+}
+
+export default Hypergraph;

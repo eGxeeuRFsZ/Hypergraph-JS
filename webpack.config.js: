@@ -1,0 +1,13 @@
+const path = require('path');
+
+module.exports = {
+  entry: './src/hypergraph.js',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'hypergraph.bundle.js',
+    library: 'Hypergraph',
+    libraryTarget: 'umd',
+    umdNamedDefine: true,
+  },
+  mode: 'development', // или 'production'
+};

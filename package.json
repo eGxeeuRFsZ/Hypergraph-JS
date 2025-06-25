@@ -1,0 +1,14 @@
+{
+  "name": "hypergraph-js",
+  "version": "0.1.0",
+  "description": "A JavaScript library for visualizing hypergraphs.",
+  "main": "src/hypergraph.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "webpack": "^5.0.0",  // Обновите до актуальной версии
+    "webpack-cli": "^4.0.0" // Обновите до актуальной версии
+  },
+  "devDependencies": {}
+}
